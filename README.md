@@ -8,7 +8,7 @@
 bash train_latent.sh
 ```
 
-## LT Train
+## NG Train
 
 ``` python
 bash train_noise.sh
