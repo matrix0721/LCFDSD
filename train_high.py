@@ -1042,7 +1042,7 @@ def main():
                     if batch["class"][0]==1:
                         loss = predict_loss
                     else:
-                        loss = -0.1*predict_loss+lambda_total*loss_contrast
+                        loss = -0.5*predict_loss+lambda_total*loss_contrast
                     #loss = lambda_total*loss_contrast+predict_loss*(batch["class"]%2).float()
                     #loss = F.mse_loss(model_pred.float(), target.float(), reduction="mean")
                 else:
