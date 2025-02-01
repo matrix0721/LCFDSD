@@ -1,6 +1,21 @@
 # Leveraging Catastrophic Forgetting to Develop Safe Diffusion Models against Malicious Finetuning
+
 (NeurIPS 24) Leveraging Catastrophic Forgetting to Develop Safe Diffusion Models against Malicious Finetuning
 
-ToDo:
-- Release ckpt and inference code
-- Release train code
+## LT Train
+
+``` python
+bash train_latent.sh
+```
+
+## LT Train
+
+``` python
+bash train_noise.sh
+```
+
+## High Safety Train
+
+``` python
+bash train_high.sh
+```
