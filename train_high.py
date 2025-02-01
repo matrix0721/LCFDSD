@@ -1012,13 +1012,7 @@ def main():
                     model_pred_class1.append(model_pred.cpu().detach().numpy())
                 else:
                     model_pred_class2.append(model_pred.cpu().detach().numpy())
-                
-                
-                #if batch["class"][0]==1:
-                 #   image_pred=image_pred
-                #else:
-                #    image_pred=image_pred+100
-                
+                                
                 class1=torch.reshape(class1,(1,-1))
                 class2=torch.reshape(class2,(1,-1))
                 
