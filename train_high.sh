@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=7 accelerate launch --mixed_precision="bf16" --multi_gpu  train_test.py \
-  --pretrained_model_name_or_path /data1/panjiadong/model/stable-diffusion-v1-4 \
-  --output_dir /data1/panjiadong/project/make_regret/outputs/0910-5\
+  --pretrained_model_name_or_path model/stable-diffusion-v1-4 \
+  --output_dir outputs\
   --resolution=768 --center_crop --random_flip \
   --train_batch_size=1 \
   --gradient_accumulation_steps=4 \
