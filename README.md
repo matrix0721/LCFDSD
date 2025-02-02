@@ -6,6 +6,10 @@
 
 Follow the instruction of installing diffusers and accelerate in the [diffusers](https://github.com/huggingface/diffusers) repository.
 
+## Ckpt
+
+Trained U-Net Ckpt will be released laterly.
+
 ## LT Train
 
 ``` python
