@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES=2 accelerate launch --mixed_precision="bf16" --multi_gpu  t
   --learning_rate=1e-5 \
   --max_grad_norm=1 \
   --lr_scheduler="cosine" --lr_warmup_steps=0 \
-  --checkpointing_steps 1000 \
+  --checkpointing_steps 100 \
   --num_train_epochs 5\
   --mixed_precision bf16 \
   --checkpoints_total_limit 3\
