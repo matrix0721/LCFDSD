@@ -17,4 +17,3 @@ CUDA_VISIBLE_DEVICES=7 accelerate launch --mixed_precision="bf16" --multi_gpu  t
   --lambda_total 0.00005 \
   --lambda_contrast 1.0 \
   --report_to "wandb" \
-  #--use_ema \
