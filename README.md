@@ -8,7 +8,7 @@ Follow the instruction of installing diffusers and accelerate in the [diffusers]
 
 ## Ckpt
 
-Trained U-Net Ckpt will be released laterly.
+High-Safety trained U-Net Ckpt is released [here](https://drive.google.com/drive/folders/1jVsTRHeuXKRRsXt-L1X_qXUOaH-XDKSo?usp=sharing).
 
 ## LT Train
 
